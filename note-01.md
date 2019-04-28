@@ -28,9 +28,12 @@
 ```
 
 ###常见标签
-1 标题标签
+
+1. 标题标签
+
 	`<h1>`--`<h6>`
-2 段落标签
+
+2. 段落标签
 ```html
 	<p>唐诗选集<br>经典</p>
 	<h2>静夜思</h2>
@@ -40,69 +43,73 @@
 	<p>举头望明月,</p>
 	<p>低头思故乡.</p>
 ```
-3 图片标签
+3. 图片标签
 ```html
-	<img src="" alt="">
-	<!-- 属性与属性之间空格隔开
-	src属性:图片的地址
-	alt属性:图片找不到时显示图片里的内容 -->
-	<img src="C:/Users/Administrator/Desktop/工具/新建文件夹 (2)/a.jpg" alt="本地绝对路径-公路">
-	<img src="https://zhengxin-pub.bj.bcebos.com/logopic/f92eaa82260a2dbb710fa82d56a7cb42_fullsize.jpg@s_1,w_484,h_484" alt="网络绝对路径-小米">
-	<img src="bf.png" alt="相对路径-当前同一目录">
-	<img src="../avatar.jpg" alt="相对路径-上一级目录">
-	<img src="img/b.png" alt="相对路径-下一级目录">
+<img src="" alt="">
+<!-- 属性与属性之间空格隔开
+src属性:图片的地址
+alt属性:图片找不到时显示图片里的内容 -->
+<img src="C:/Users/Administrator/Desktop/工具/新建文件夹 (2)/a.jpg" alt="本地绝对路径-公路">
+<img src="https://zhengxin-pub.bj.bcebos.com/logopic/f92eaa82260a2dbb710fa82d56a7cb42_fullsize.jpg@s_1,w_484,h_484" alt="网络绝对路径-小米">
+<img src="bf.png" alt="相对路径-当前同一目录">
+<img src="../avatar.jpg" alt="相对路径-上一级目录">
+<img src="img/b.png" alt="相对路径-下一级目录">
 ```
-4 超链接标签
+4. 超链接标签
 ```html
-	<a href="https://www.mi.com/" target="_blank">小米商城</a>
-	<!-- 新窗口打开页面 -->
-	<!-- target属性: -->
-	<!-- _blank新窗口打开 -->
-	<!-- _self当前窗口打开(默认) -->
-	<!-- 实现图片的跳转 -->
-	<a href="https://www.mi.com/" target="_self">
-		<img src="https://zhengxin-pub.bj.bcebos.com/logopic/f92eaa82260a2dbb710fa82d56a7cb42_fullsize.jpg@s_1,w_484,h_484" alt="">
-	</a>
+<a href="https://www.mi.com/" target="_blank">小米商城</a>
+<!-- 新窗口打开页面 -->
+<!-- target属性: -->
+<!-- _blank新窗口打开 -->
+<!-- _self当前窗口打开(默认) -->
+<!-- 实现图片的跳转 -->
+<a href="https://www.mi.com/" target="_self">
+	<img src="https://zhengxin-pub.bj.bcebos.com/logopic/f92eaa82260a2dbb710fa82d56a7cb42_fullsize.jpg@s_1,w_484,h_484" alt="">
+</a>
 ```
-5 分割线
+5. 分割线
+
 	`<hr>`
-6 字体标签
+
+6. 字体标签
 ```html
-	<em>斜体:表示一段内容中的着重点</em>
-	<strong>加粗:表示一个内容的重要性</strong>
-	<br>
-	没有语义化:
-	<i>斜体</i><b>加粗</b>
-	上标:5<sup>2</sup>
-	下标:h<sub>2</sub>o
-	<ins>这一段文字有下划线</ins>
-	<del>这一段有删除线</del>
-	<!-- 5转义字符
-	空格 &nbsp; &#160;
-	小于号 &lt; &#60;
-	大于号 &gt; &#62; -->
-	<p></p>
-	&lt;p&gt;&lt;/p&gt;
-	<!-- 还有很多 -->
+<em>斜体:表示一段内容中的着重点</em>
+<strong>加粗:表示一个内容的重要性</strong>
+<br>
+没有语义化:
+<i>斜体</i><b>加粗</b>
+上标:5<sup>2</sup>
+下标:h<sub>2</sub>o
+<ins>这一段文字有下划线</ins>
+<del>这一段有删除线</del>
+<!-- 5转义字符
+空格 &nbsp; &#160;
+小于号 &lt; &#60;
+大于号 &gt; &#62; -->
+<p></p>
+&lt;p&gt;&lt;/p&gt;
+<!-- 还有很多 -->
 ```
-7 列表标签
-	1 有序列表
+7. 列表标签
+
++ 有序列表
 ```html
-		<ol>
-			<li>手机</li>
-			<li>数码</li>
-			<li>摄影</li>
-		</ol>
+<ol>
+	<li>手机</li>
+	<li>数码</li>
+	<li>摄影</li>
+</ol>
 ```
-	2 无序列表
++ 无序列表
+
 ```html
-		<ul>
-			<li>猫</li>
-			<li>狗</li>
-			<li>羊</li>
-		</ul>
+<ul>
+	<li>猫</li>
+	<li>狗</li>
+	<li>羊</li>
+</ul>
 ```
-	3 自定义列表
++ 自定义列表
 ```html
 		<dl>
 			<dt>第一章</dt>
