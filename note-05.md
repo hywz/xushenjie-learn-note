@@ -25,23 +25,23 @@
 
 [百度](http://www.baidu.com)
 
-![图片](http://ww1.sinaimg.cn/large/a1dfefcbly1g2ifvx1awxj20m80go1bx.jpg)
+![猫咪](http://ww1.sinaimg.cn/large/a1dfefcbly1g2imnqu2tkj20jg0dsao7.jpg)
 
 无序列表前面可以用* + - 等,结果是相同的.有序列表的数字即便不按照顺序排列,结果仍是有序的.
 
 * 项目
 * 项目
 * 项目
- * 子项目
- * 子项目
+    * 子项目
+    * 子项目
 * 项目
 
-1.项目
-2.项目
-3.项目
- 1.子项目
- 2.子项目
-4.项目
+1. 项目
+2. 项目
+3. 项目
+    1. 子项目
+    2. 子项目
+4. 项目
 
 在一行中用三个以上的星号\减号\下划线来建立一个分割线
 ___
