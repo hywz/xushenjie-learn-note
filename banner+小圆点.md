@@ -1,4 +1,4 @@
-###banner+小圆点的实现
+### banner+小圆点的实现
 + html部分
 ```html
 <!DOCTYPE html>
