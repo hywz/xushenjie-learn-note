@@ -129,8 +129,8 @@
 }
 /*小圆点*/
 .banner .dots{
-	width: 150px;
-	height: 14px;
+	/* width: 150px;
+	height: 14px; */
 	left: 50%;
 	transform: translateX(-50%);
 	position: absolute;
