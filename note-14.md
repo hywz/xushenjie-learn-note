@@ -641,6 +641,7 @@ console.log(getNextSiblings2(li2));
 </html>
 ```
 ### banner切换
+```html
 <!DOCTYPE html>
 <html lang="en">
 
