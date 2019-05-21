@@ -1,4 +1,4 @@
-## 进阶-1
+## BOM-1
 ### offset
 + offsetWidth/offsetHeight   检测盒子宽高  人为设定的宽高 + padding + border
 + offsetLeft/offsetTop  检测盒子距离有定位的父盒子的左上距离,最终指向body
