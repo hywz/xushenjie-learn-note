@@ -1,8 +1,14 @@
 ## BOM-1
-### offset
-+ offsetWidth/offsetHeight   检测盒子宽高  人为设定的宽高 + padding + border
-+ offsetLeft/offsetTop  检测盒子距离有定位的父盒子的左上距离,最终指向body
-+ offsetParent  获取到当前元素有定位的父盒子,没有的话直到body
+### BOM入门
++ `ECMAScript` 是 `javascript` 的核心，但是如果要在 `web` 中使用 `javascript`，那么 `BOM` (浏览器对象模型)才是真正的核心。BOM提供了很多对象，用于访问浏览器的功能，这些功能与任何网页内容无关。
++ `BOM` 的核心对象是 `window` ，它表示浏览器的一个实例。在浏览器中， `window` 对象有双重角色，它既是通过 `javascript` 访问浏览器窗口的一个接口，又是 `ECMAScript` 规定的 `Global` 对象。所有全局作用域中声明的变量、函数都会变成 `window` 对象的属性和方法。
+### 三大家族之一`offset`家族
++ offsetWidth/offsetHeight   
+    - 检测盒子宽高  人为设定的宽高 + padding + border
++ offsetLeft/offsetTop  
+    - 检测盒子距离有定位的父盒子的左上距离,最终指向body
+    - `offsetLeft` 从父亲的 `padding` 开始算,父亲的 `border` 不算。
++ offsetParent  获取到当前元素有定位的最近的父盒子,没有的话直到body
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -74,8 +80,11 @@ console.log(inner.offsetParent);
 // box没有定位  返回 body元素;box 有定位,返回 box 元素
 ```
 ### offsetLeft与styleLeft的区别
-+ style只能获取行内样式,没有设置top/left 就返回 ""
-+ offsetLeft/offetTop 返回距离有定位的父盒子的左上距离,无论元素自身有没有定位
++ `offsetTop/Left` 可以返回没有定位盒子的距离左侧的位置。而 `style.top/left` 不可以,只能获取行内样式,没有设置top/left 就返回 ""
++ `offsetTop/Left` 可以返回没有定位盒子的距离左侧的位置。而 `style.top/left` 不可以
++ `offsetTop/Left` 返回的是整数，而 `style.top/left` 返回的是字符串，除了数字外还带有单位：`px`
++ `offsetTop/Left` 只读，而 `style.top/left` 可读写。（只读是获取值，可写是赋值）
+
 ### 匀速动画
 ```html
 <!DOCTYPE html>
